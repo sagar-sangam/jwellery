@@ -1,0 +1,63 @@
+
+#mainarea{
+        margin: 0px auto;
+        height: 9500px;
+         width: 1200px;
+        background-color: #F0F0F0;
+    }
+    /* #collection{
+        height: 4000px;
+        width: 1160px;
+        margin-top: 20px;
+        background-color: rgb(21, 165, 158);
+    } */
+
+h1{
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+}
+
+    .date{
+        height: 30px;
+        width: 150px;
+        background-color:white;
+        margin-left: 50px;
+        border-right:solid 30px transparent; 
+        border-bottom:solid 30px black;	
+
+
+        
+        
+    }
+    .date p{
+        padding: 8px;
+        color:black;
+       
+
+    }
+
+    .productarea{
+        height: 400px;
+        width: 1200px;
+        /* background-color: aqua; */
+        margin-top: 20px;
+        position: relative;
+    }
+
+     .productarea img{
+        height: 400px;
+        width: 1100px;
+        margin-left: 50px;
+       
+    }
+
+    .text{
+        position:absolute;
+        top: 88%;
+        left: 5%;
+        color:#333333;
+        font-family: Garamond (serif);
+        font-size: 1rem;
+
+    }
