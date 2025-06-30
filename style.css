@@ -4,7 +4,7 @@
 
 #mainarea{
     margin: 0px auto;
-    height: 5800px;
+    height: 5000px;
     width: 1200px;
     /* background-color: aqua; */
 }
@@ -344,26 +344,29 @@
 }
 
 
-#mainarea #aboutarea #about h3 {
-    
-    height: 45px;
-    width: 120px;
-   margin-top: 40px;
-    background-color: #91A37E;
-    text-align: center;
+#mainarea  #about #aboutus h3{
+    margin-top: 40px;
     padding-top: 15px;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    background-color: #91A37E;
+    color: rgb(16, 16, 16);
+    border: solid 1px rgb(110, 106, 106);
+    float: left;
     margin-left: 30%;
-    color:#9CAF88 ;
-    background-color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
-#mainarea #aboutarea #about a:link{
+#mainarea  #about #aboutus h3 a:link,#mainarea  #about #aboutus h3 a:visited{
     text-decoration: none;
-    color: aliceblue;
-  
+    color: rgb(18, 17, 17);
 }
 
+
+#mainarea  #about #aboutus h3 a:hover{
+    color: blue;
+}
 #mainarea #celebratiesarea{
     height: 560px;
     width: 1200px;
@@ -549,7 +552,7 @@
     font-family: serif;
 }
 #mainarea #commentarea #boxarea #subscribe h4{
-    height: 50px;
+    height: 49px;
     width: 150px;
     background-color: red;
     text-align: center;
@@ -558,8 +561,8 @@
 
 }
 #mainarea #commentarea #boxarea #subscribe #write{
-    height: 50px;
-    width: 300px;
+    height: 44px;
+    width: 302px;
     border: solid 1px black;
    margin-top: 40px;
    margin-left:30px;
@@ -571,13 +574,15 @@
     border: solid 5px black;
 } */
 #mainarea #commentarea #boxarea #subscribe #submit h3{
-    width: 140px;
-    height: 52px;
+    width: 120px;
+    height: 46px;
     background-color:black;
     margin-top: 40px;
     margin-bottom: 0px;
     float:left;
     color: white;
+    /* padding: 0px 10px 0px 0px; */
+    text-align: center;
     
 }
 
@@ -587,6 +592,7 @@
     font-size: 1.5rem;
     text-align: center;
     font-family:Bookman, URW Bookman L, serif;
+    
     
 }
 
@@ -633,7 +639,7 @@
 
 
 #mainarea #footerarea #boxarea{
-    height: 600px;
+    height: 500px;
     width: 1200px;
     background-color:#9CAF88;
     margin-bottom: 0px;
@@ -641,7 +647,7 @@
 }
 
 #mainarea #footerarea .box{
-    height: 450px;
+    height: 350px;
     width: 180px;
     /* background-color: red; */
     margin: 5px;
@@ -653,17 +659,21 @@
 #mainarea #footerarea #boxarea .image img  {
     height: 100px;
     width: 100px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 30px;
     
 }
 
 #mainarea #footerarea #boxarea .b2 h3{
     text-align:left;
+    margin-left: 0px;
     padding-top: 0px;
     color:white;
     padding-bottom: 0px;
     font-family: Libre Baskerville;
+    
+    
+    
 }
 
 #mainarea #footerarea #boxarea .box ul li a:link,#mainarea #footerarea #boxarea .box ul li a:visited{
